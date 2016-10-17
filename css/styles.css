@@ -13,26 +13,18 @@
   background-color: #e6d1a0;
   border-radius: 0;
   border: 0;
-  
-
-
-
+ 
 }
-
-.navbar-toggle{
-	margin-top: 10px;
-}
-
-
 
 .navbar-brand h1{
-    text-align: left;
+    
 	margin-bottom: 0;
 	margin-top: 0;
+    margin-left: 5px;
     text-transform: capitalize;
     font-weight: bold;
     font-size: 1.1em;
-    
+    line-height: .75;
 }
 
 /** END OF HEADER **/
@@ -45,14 +37,23 @@
   background-color: #e6cd95;
     margin-bottom: 0;
 	margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #menu-list a:hover{
 	background: #6a6666;
+     
+}
+
+#menu-list a span {
+    font-size: 1.2em; 
+    margin-bottom: 0;
+	margin-top: 0;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-	border: 1px solid #1a1818;
+	border: 1px solid #0f0d0e;
 }
 
 #menu-header p  {
@@ -70,8 +71,11 @@
 #menu-title + p{
     background-color: darkgray;
 }
+
 hr{
-	width: 95%;
+	width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 
