@@ -13,16 +13,26 @@
   background-color: #e6d1a0;
   border-radius: 0;
   border: 0;
+  
+
+
+
+}
+
+.navbar-toggle{
+	margin-top: 10px;
 }
 
 
 
-.navbar-brand {
-  padding-top: 15px;
+.navbar-brand h1{
+    text-align: left;
+	margin-bottom: 0;
+	margin-top: 0;
     text-transform: capitalize;
     font-weight: bold;
+    font-size: 1.1em;
     
-   
 }
 
 /** END OF HEADER **/
@@ -33,10 +43,20 @@
   color: #0f0d0e;
   text-align: center;
   background-color: #e6cd95;
+    margin-bottom: 0;
+	margin-top: 0;
 }
-    
+
+#menu-list a:hover{
+	background: #6a6666;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #1a1818;
+}
+
 #menu-header p  {
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 #menu-title{
@@ -50,8 +70,8 @@
 #menu-title + p{
     background-color: darkgray;
 }
+hr{
+	width: 95%;
+}
 
-
-
-#header-nav {
 
